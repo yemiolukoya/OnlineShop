@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="100.647972">
+<testcase classname="Signin to Online Shop" name="Signin to Online Shop with valid credentials" time="28.462661">
+<system-out><![CDATA[Given I navigate to https://shop.alzheimers.org.uk/.........................passed
+And I click on sigin link...................................................passed
+When I enter E-Mail Address.................................................passed
+And I enter password........................................................passed
+And I click login button....................................................passed
+Then I should be on the home page...........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Signin to Online Shop" name="Signin to Online Shop with invalid credentials" time="24.411983">
+<system-out><![CDATA[Given I navigate to https://shop.alzheimers.org.uk/.........................passed
+And I click on sigin link...................................................passed
+When I enter invalid "abc@a.com" Address....................................passed
+And I enter invalid "qawsedrft".............................................passed
+And I click login button....................................................passed
+Then error message should be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Signin to Online Shop" name="Signin to Online Shop with invalid credentials 2" time="23.240411">
+<system-out><![CDATA[Given I navigate to https://shop.alzheimers.org.uk/.........................passed
+And I click on sigin link...................................................passed
+When I enter invalid "abc@b.com" Address....................................passed
+And I enter invalid "qawsedrft".............................................passed
+And I click login button....................................................passed
+Then error message should be displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Signin to Online Shop" name="Signin to Online Shop with invalid credentials 3" time="24.532917">
+<system-out><![CDATA[Given I navigate to https://shop.alzheimers.org.uk/.........................passed
+And I click on sigin link...................................................passed
+When I enter invalid "abc@c.com" Address....................................passed
+And I enter invalid "qawsedrft".............................................passed
+And I click login button....................................................passed
+Then error message should be displayed......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

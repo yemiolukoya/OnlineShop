@@ -1,0 +1,394 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Signin to Online Shop with valid credentials",
+        "description": "",
+        "id": "signin-to-online-shop;signin-to-online-shop-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 21930948884,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I navigate to https://shop.alzheimers.org.uk/",
+            "match": {
+              "location": "SignInStep.i_navigate_to_https_shop_alzheimers_org_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2955836729,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I click on sigin link",
+            "match": {
+              "location": "SignInStep.i_click_on_sigin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 309288039,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I enter E-Mail Address",
+            "match": {
+              "location": "SignInStep.i_enter_E_Mail_Address()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 135863743,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter password",
+            "match": {
+              "location": "SignInStep.i_enter_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3117557940,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click login button",
+            "match": {
+              "location": "SignInStep.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 13166126,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should be on the home page",
+            "match": {
+              "location": "SignInStep.i_should_be_on_the_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Signin to Online Shop with invalid credentials",
+        "description": "",
+        "id": "signin-to-online-shop;signin-to-online-shop-with-invalid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19288327410,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to https://shop.alzheimers.org.uk/",
+            "match": {
+              "location": "SignInStep.i_navigate_to_https_shop_alzheimers_org_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2801171467,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on sigin link",
+            "match": {
+              "location": "SignInStep.i_click_on_sigin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 228148460,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter invalid \"abc@a.com\" Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@a.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid_Address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 138463257,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter invalid \"qawsedrft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qawsedrft",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1865388303,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login button",
+            "match": {
+              "location": "SignInStep.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90484602,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "SignInStep.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Signin to Online Shop with invalid credentials",
+        "description": "",
+        "id": "signin-to-online-shop;signin-to-online-shop-with-invalid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 16048460102,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to https://shop.alzheimers.org.uk/",
+            "match": {
+              "location": "SignInStep.i_navigate_to_https_shop_alzheimers_org_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4180042060,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on sigin link",
+            "match": {
+              "location": "SignInStep.i_click_on_sigin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 239495352,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter invalid \"abc@b.com\" Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@b.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid_Address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 186057569,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter invalid \"qawsedrft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qawsedrft",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2536275471,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login button",
+            "match": {
+              "location": "SignInStep.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50080639,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "SignInStep.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Signin to Online Shop with invalid credentials",
+        "description": "",
+        "id": "signin-to-online-shop;signin-to-online-shop-with-invalid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 19653455673,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I navigate to https://shop.alzheimers.org.uk/",
+            "match": {
+              "location": "SignInStep.i_navigate_to_https_shop_alzheimers_org_uk()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2277227882,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I click on sigin link",
+            "match": {
+              "location": "SignInStep.i_click_on_sigin_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224686157,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I enter invalid \"abc@c.com\" Address",
+            "match": {
+              "arguments": [
+                {
+                  "val": "abc@c.com",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid_Address(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 159047612,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I enter invalid \"qawsedrft\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "qawsedrft",
+                  "offset": 17
+                }
+              ],
+              "location": "SignInStep.i_enter_invalid(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2181703335,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click login button",
+            "match": {
+              "location": "SignInStep.i_click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 36796509,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "error message should be displayed",
+            "match": {
+              "location": "SignInStep.error_message_should_be_displayed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Signin to Online Shop",
+    "description": "",
+    "id": "signin-to-online-shop",
+    "keyword": "Feature",
+    "uri": "/Users/yemioluv/eclipse-workspace/onlineShop2/src/main/java/com/mw/feature/SignIn.feature"
+  }
+]
